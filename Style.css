@@ -30,8 +30,8 @@
     .title {
       font-size: 32px;
       font-weight: bold;
-      color: #2e7d32;
-      border-bottom: 4px solid #558b2f;
+      color: #0c0c0c;
+      border-bottom: 4px solid #461b38;
       padding-bottom: 8px;
       display: inline-block;
       text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
@@ -43,18 +43,18 @@
       flex-wrap: wrap;
       justify-content: space-between;
       align-items: center;
-      background-color: rgba(255, 255, 255, 0.8);
+      background-color: #f0e7e2(255, 255, 255, 0.8);
       border-radius: 8px;
       box-shadow: 0 4px 10px rgba(0, 128, 0, 0.1);
       padding: 15px;
       margin-bottom: 20px;
-      border-left: 5px solid #8bc34a;
+      border-left: 5px solid #a47e82;
     }
     
     .institution-info {
       text-align: center;
       font-weight: 500;
-      color: #33691e;
+      color: #b28f75;
       margin: 10px 0;
     }
     
@@ -65,7 +65,7 @@
     
     /* Group info */
     .group-info {
-      background-color: rgba(255, 255, 255, 0.8);
+      background-color: #f0e7e2(255, 255, 255, 0.8);
       border-radius: 8px;
       box-shadow: 0 4px 10px rgba(0, 128, 0, 0.1);
       padding: 20px;
@@ -80,22 +80,22 @@
     .course-title {
       font-size: 20px;
       font-weight: bold;
-      color: #33691e;
+      color: #c08b89;
     }
     
     .team-info {
-      background: linear-gradient(to right, #fff9c4, #f0f4c3);
+      background: linear-gradient(to right, #edcecc, #f2d2d5);
       border-radius: 8px;
       padding: 15px;
       margin-bottom: 20px;
-      border: 1px solid #dcedc8;
+      border: 1px solid #f0ccd0;
     }
     
     .team-title {
       font-size: 20px;
       font-weight: bold;
       text-align: center;
-      color: #33691e;
+      color: #bb7f82;
       margin-bottom: 10px;
     }
     
@@ -106,7 +106,8 @@
     
     .team-members li {
       padding: 3px 0;
-      color: #33691e;
+      color: #bb7f82
+      ;
     }
     
     /* Accordion */
@@ -114,18 +115,18 @@
       width: 100%;
       text-align: left;
       padding: 15px;
-      background: linear-gradient(to right, #fff9c4, #dcedc8);
-      border: 1px solid #c5e1a5;
+      background: linear-gradient(to right, #edcecc, #f2f2f2);
+      border: 1px solid #f0ccd0;
       border-radius: 4px;
       font-weight: bold;
-      color: #33691e;
+      color: #bb7f82;
       cursor: pointer;
       margin-bottom: 5px;
       transition: all 0.3s;
     }
     
     .accordion-button:hover {
-      background: linear-gradient(to right, #fff59d, #c5e1a5);
+      background: linear-gradient(to right, #edcecc, #f2d2d5);
       transform: translateX(3px);
     }
     
@@ -133,7 +134,7 @@
       display: none;
       padding: 15px;
       background-color: rgba(255, 255, 255, 0.8);
-      border: 1px solid #c5e1a5;
+      border: 1px solid #f2d2d5;
       border-top: none;
       margin-bottom: 10px;
     }
@@ -141,21 +142,21 @@
     .content-link {
       display: block;
       padding: 8px;
-      color: #558b2f;
+      color: #bb7f82;
       text-decoration: none;
       transition: all 0.2s;
       border-radius: 4px;
     }
     
     .content-link:hover {
-      background-color: #f0f4c3;
+      background-color: #f2d2d5;
       text-decoration: underline;
       padding-left: 12px;
     }
     
     /* Welcome section */
     .welcome-section {
-      background: linear-gradient(135deg, #9ccc65, #7cb342);
+      background: linear-gradient(135deg, #edcecc, #f2d2d5);
       border-radius: 8px;
       box-shadow: 0 10px 15px -3px rgba(0, 128, 0, 0.2);
       padding: 30px;
@@ -180,8 +181,8 @@
     }
     
     .welcome-button {
-      background: linear-gradient(to right, #fff9c4, #f0f4c3);
-      color: #558b2f;
+      background: linear-gradient(to right, #edcecc, #f2f2f2);
+      color: #bb7f82;
       font-weight: bold;
       padding: 12px 24px;
       border: none;
@@ -193,9 +194,9 @@
     }
     
     .welcome-button:hover {
-      background: linear-gradient(to right, #fff59d, #dcedc8);
+      background: linear-gradient(to right, #edcecc, #f2d2d5);
       transform: scale(1.05);
-      border-color: #c5e1a5;
+      border-color: #e2b4c1;
       box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     }
     
