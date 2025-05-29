@@ -3,14 +3,14 @@
       margin: 0;
       padding: 0;
       box-sizing: border-box;
-      font-family: Arial, sans-serif;
+      font-family: Courier, monospace, sans-serif;
     }
     
     body {
-      /* Yellow background with subtle green gradient */
-      background: linear-gradient(135deg, #fff9c4 0%, #f0f4c3 50%, #dcedc8 100%);
+      /* Yellow background with subtle pink gradient */
+      background: linear-gradient(135deg, #d5a9a0 0%, #edd9d2 50%, #ccc47b 100%);
       min-height: 100vh;
-      color: #333;
+      color: #141414;
       line-height: 1.6;
       background-attachment: fixed;
     }
