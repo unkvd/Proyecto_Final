@@ -98,7 +98,7 @@
       font-size: 20px;
       font-weight: bold;
       text-align: center;
-      color: #bb7f82;
+      color: #0c0c0c;
       margin-bottom: 10px;
     }
     
@@ -164,7 +164,7 @@
       box-shadow: 0 10px 15px -3px rgba(0, 128, 0, 0.2);
       padding: 30px;
       text-align: center;
-      color: white;
+      color: rgb(12, 12, 12);
     }
     
     .welcome-title {
